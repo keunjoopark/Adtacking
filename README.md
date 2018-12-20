@@ -17,7 +17,7 @@ Added unique features
 * Features = ['ip', 'app', 'device', 'os', 'channel', 'hour', 'minute', 'second', 'day', 'weekday', 'dayofyear', 'month', 'prev_identical_clicks', 'future_identical_clicks', 'ip_app_count_channel', 'ip_app_os_count_channel', 'ip_app_device_count_channel',
  'ip_day_hour_count_channel', 'ip_app_day_hour_count_channel', 'ip_app_device_day_hour_count_channel', 'app_count_channel', 'channel_count_app', 'ip_app_channel_var_day', 'ip_app_device_var_day', 'ip_app_os_var_day', 'ip_app_channel_mean_hour', 'ip_nunique_channel', 'ip_nunique_app', 'ip_day_nunique_hour', 'ip_app_nunique_os', 'ip_nunique_device', 'app_nunique_channel', 'ip_device_os_nunique_app']
 * XGBOOST: 96.74%
-** XGBClassifier(
+* XGBClassifier(
           learning_rate = 0.1,
           max_depth = 4, 
           n_estimators=200,
@@ -26,7 +26,7 @@ Added unique features
           n_jobs = 4,
           objective='binary:logistic')
 * LightBGM: 95.69%
-** LGBMClassifier(
+* LGBMClassifier(
         boosting_type='gbdt', 
         max_depth=2, 
         learning_rate=0.1, 
@@ -35,3 +35,7 @@ Added unique features
         objective = 'binary',
         metric = 'auc'
         )
+
+## Future Intrerests
+* Subsampling, Undersampling, Oversampling to get rid of data imbalance
+* Do more feature engineering to find better features
