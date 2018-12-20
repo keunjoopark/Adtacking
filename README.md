@@ -14,7 +14,7 @@ Added Mean features:  Mean hour for ip-app-channel
 Added unique features
 
 ## ML Model
-Best Model
+* Best Model
 Features = ['ip', 'app', 'device', 'os', 'channel', 'hour', 'minute', 'second', 'day', 'weekday', 'dayofyear', 'month', 'prev_identical_clicks', 'future_identical_clicks', 'ip_app_count_channel', 'ip_app_os_count_channel', 'ip_app_device_count_channel',
  'ip_day_hour_count_channel', 'ip_app_day_hour_count_channel', 'ip_app_device_day_hour_count_channel', 'app_count_channel', 'channel_count_app', 'ip_app_channel_var_day', 'ip_app_device_var_day', 'ip_app_os_var_day', 'ip_app_channel_mean_hour', 'ip_nunique_channel', 'ip_nunique_app', 'ip_day_nunique_hour', 'ip_app_nunique_os', 'ip_nunique_device', 'app_nunique_channel', 'ip_device_os_nunique_app']
 -- XGBOOST: 96.74%
